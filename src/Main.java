@@ -1,6 +1,5 @@
 import processing.core.PApplet;
 import processing.core.PImage;
-import processing.core.PApplet;
 
 import java.util.ArrayList;
 
