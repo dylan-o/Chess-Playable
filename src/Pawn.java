@@ -2,6 +2,9 @@ import processing.core.PImage;
 
 import java.util.ArrayList;
 
+/**
+ * The Pawn class is a subclass of the Piece class.
+ */
 public class Pawn extends Piece {
     public Pawn(boolean isWhite, Square square){
         this.isWhite = isWhite;

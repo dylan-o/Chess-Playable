@@ -1,10 +1,10 @@
+/**
+ * Square class is used to represent a square on the board.
+ * It has a piece, a position, and a board.
+ */
 public class Square {
     private int x;
     private int y;
-
-    public Square[][] getBoard() {
-        return board;
-    }
 
     private Square[][] board;
     private Piece piece;
@@ -73,5 +73,9 @@ public class Square {
             return null;
         }
         return board[x+1][y];
+    }
+
+    public Square[][] getBoard() {
+        return board;
     }
 }

@@ -2,6 +2,11 @@ import processing.core.PImage;
 
 import java.util.ArrayList;
 
+/**
+ * Abstract class representing a chess piece.
+ * This class is extended by the specific piece classes (Pawn, Rook, Knight, Bishop, Queen, King).
+ * This class contains methods that are common to all pieces.
+ */
 public abstract class Piece {
     boolean isWhite;
     Square square;

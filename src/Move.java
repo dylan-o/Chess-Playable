@@ -1,5 +1,10 @@
 import java.util.ArrayList;
 
+/**
+ * Represents a move in the game of chess.
+ * A move is defined by the square the piece is moving from, the square the piece is moving to, and the piece being moved.
+ * Also contains information about whether the move is a special move, like a promotion, castling, or en passant.
+ */
 public class Move {
     Square start;
     Square end;

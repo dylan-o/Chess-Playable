@@ -2,6 +2,9 @@ import processing.core.PImage;
 
 import java.util.ArrayList;
 
+/**
+ * The Knight class is a subclass of the Piece class.
+ */
 public class Knight extends Piece{
     public Knight(boolean isWhite, Square square){
         this.isWhite = isWhite;

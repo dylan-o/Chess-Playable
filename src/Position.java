@@ -1,3 +1,5 @@
+//Not currently used, will be implemented with computer player
+
 public class Position extends Exception{
     Square[][] board;
     public Position(){

@@ -1,6 +1,10 @@
 import java.util.ArrayList;
 import java.util.LinkedList;
 
+/**
+ * Singleton class that represents the game state.
+ * Contains the board, the players, and the game log.
+ */
 public class Game {
     public static final Game INSTANCE = new Game();
     private boolean whiteTurn = true;

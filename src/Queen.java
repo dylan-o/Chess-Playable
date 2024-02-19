@@ -2,6 +2,9 @@ import processing.core.PImage;
 
 import java.util.ArrayList;
 
+/**
+ * The Queen class is a subclass of the Piece class.
+ */
 public class Queen extends Piece{
     public Queen(boolean isWhite, Square square){
         this.isWhite = isWhite;

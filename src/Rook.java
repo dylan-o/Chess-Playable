@@ -2,6 +2,9 @@ import processing.core.PImage;
 
 import java.util.ArrayList;
 
+/**
+ * The Rook class is a subclass of the Piece class.
+ */
 public class Rook extends Piece{
     private boolean hasMoved = false;
 

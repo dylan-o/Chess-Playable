@@ -4,6 +4,10 @@ import processing.core.PApplet;
 
 import java.util.ArrayList;
 
+/**
+ * Chess
+ * Designed and created by: Dylan Olmsted
+ */
 public class Main extends PApplet {
     static PImage boardImage;
     static PImage whitePawn;

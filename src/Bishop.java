@@ -1,7 +1,9 @@
 import processing.core.PImage;
 
 import java.util.ArrayList;
-
+/**
+ * The Bishop class is a subclass of the Piece class.
+ */
 public class Bishop extends Piece{
     public Bishop(boolean isWhite, Square square){
         this.isWhite = isWhite;

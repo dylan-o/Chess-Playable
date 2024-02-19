@@ -1,5 +1,8 @@
 import java.util.ArrayList;
 
+/**
+ * The Player class is an abstract class that represents a player in the game.
+ */
 public abstract class Player {
     boolean isPlayingWhite;
     public abstract void turn();

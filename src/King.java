@@ -2,6 +2,9 @@ import processing.core.PImage;
 
 import java.util.ArrayList;
 
+/**
+ * The King class is a subclass of the Piece class.
+ */
 public class King extends Piece{
     private boolean hasMoved = false;
 
